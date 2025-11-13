@@ -7,11 +7,9 @@ Este repositorio corresponde a la serie **18.0** de Odoo y todos los módulos se
 
 ## Módulos disponibles
 
-### Cashier Console
+### Cajero
 
 Aplicación que unifica configuraciones y flujos de cobro para los equipos de
 caja. Permite definir diarios por compañía, controlar el acceso por empleado y
 registrar cobros de órdenes de venta mediante un asistente que genera la
-factura y el recibo correspondientes. The module surfaces as a dedicated app
-tile in Odoo 18 and offers a guided payment wizard to keep sales orders,
-invoices, and receipts in sync.
+factura y el recibo correspondientes.
