@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="menu_cajero_root" name="Cajero" sequence="10"/>
+
+    <menuitem id="menu_cajero_dashboard" name="Panel" parent="menu_cajero_root" action="action_cajero_sessions" sequence="10"/>
+    <menuitem id="menu_cajero_orders" name="Órdenes" parent="menu_cajero_root" action="action_cajero_orders" sequence="20"/>
+    <menuitem id="menu_cajero_configuration" name="Configuración" parent="menu_cajero_root" sequence="90" groups="base.group_system"/>
+    <menuitem id="menu_cajero_settings" name="Ajustes" parent="menu_cajero_configuration" action="res_config_settings_view_form_cajero" sequence="1" groups="base.group_system"/>
+</odoo>
