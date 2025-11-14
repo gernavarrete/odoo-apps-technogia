@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_cajero_session_user,Cajero Session,model_cajero_session,base.group_user,1,1,1,1
-access_cajero_order_user,Cajero Order,model_cajero_order,base.group_user,1,1,1,0
